@@ -1,0 +1,5 @@
+class Solution:
+    def solve(self, A):
+        A = A.split()
+        A.reverse()
+        return ' '.join(A)
